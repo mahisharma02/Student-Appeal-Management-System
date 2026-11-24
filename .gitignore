@@ -1,0 +1,98 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+
+Python
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+ENV/
+Node.js
+=======
+# Python
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js / Vite
+>>>>>>> 38d90ab (Some files deleted that were not needed)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+Build and cache
+.cache/
+.log
+npm-debug.log
+IDE and OS
+=======
+# Secrets and local configuration
+.env
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime uploads and local data
+uploads/
+*.log
+
+# Editor / OS
+>>>>>>> 2c9a4fc (Initial commit: Student Appeal Management System)
+=======
+
+# Runtime files and private uploads
+uploads/
+instance/
+*.log
+
+# Local databases and backups
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# IDE and operating system
+>>>>>>> 38d90ab (Some files deleted that were not needed)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+<<<<<<< HEAD
+<<<<<<< HEAD
+Database backups and local data
+*.sql
+*.dump
+*.sqlite3
+*.db
+Uploaded private documents
+uploads/
+instance/
+</CodeBlock>
+=======
+>>>>>>> 2c9a4fc (Initial commit: Student Appeal Management System)
+=======
+>>>>>>> 38d90ab (Some files deleted that were not needed)
