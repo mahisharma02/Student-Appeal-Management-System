@@ -1,9 +1,16 @@
 
+<<<<<<< HEAD
+=======
+# Dependencies
+node_modules/
+
+>>>>>>> b3f5bc2dacf9f6c9303cbaa50c5c7f0a7c105863
 # Environment variables and secrets
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 
 Python
 pycache/
@@ -96,3 +103,28 @@ instance/
 >>>>>>> 2c9a4fc (Initial commit: Student Appeal Management System)
 =======
 >>>>>>> 38d90ab (Some files deleted that were not needed)
+=======
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Uploaded documents and user data
+uploads/*
+!uploads/.gitkeep
+
+# Temporary files
+.tmp/
+temp/
+>>>>>>> b3f5bc2dacf9f6c9303cbaa50c5c7f0a7c105863
